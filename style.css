@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(back.jpg);
+  }
+  .logo {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+  }
+  .sectionSearch {
+    position: fixed;
+    top: 50px;
+    right: 90px;
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid rgba(167, 158, 245, 0.1);
+  }
+  .searchBox input {
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #1f1f1f;
+    font-size: 1rem;
+    padding: 0px 10px;
+  }
+  .firstSectinImage {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%, -50%);
+  }
+  .firstSectinImage img {
+    height: 400px;
+  }
+  .firstSectionHeading {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-40%, -50%);
+  }
+  .personal-website{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-40%, -50%);
+    font-style: italic;
+  }
+  .personal-website{
+    font-family: roboto, arial, helvetica;
+    font-weight: lighter;
+    margin: 0px;
+    line-height: 45px;
+    font-size: 25px;
+    text-shadow: 10px 4px 10px rgba(0, 0, 0, 0.4);
+    color: #4c4ca7;
+    text-transform: initial;
+  }
+  .personal-website-span {
+    color: #bcbbdb;
+  }
+  .personal-website{
+    letter-spacing: .5px;
+  }
+  .firstSectionHeading h1 {
+    font-family: roboto, arial, helvetica;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 60px;
+    font-size: 2.4rem;
+    text-shadow: 24px 12px 10px rgba(0, 0, 0, 0.4);
+    color: #000000;
+    text-transform: uppercase;
+  }
+  .letterSpacing {
+    letter-spacing: 7px;
+  }
+  .firstSectionHeading span {
+    color: #3e36db;
+  }
+  .btnBuyNow {
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+  }
+  .btnBuyNow:hover {
+    color: #fff;
+    background-color: #5b53ff;
+    transition: all ease 0.5s;
+  }
+  .mediaIcons {
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    padding: 1px 2px;
+    z-index: 1;
+  }
+  .mediaIcons a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    text-decoration: none;
+  }
+  .mediaIcons a i {
+    color: rgba(39, 39, 39, 0.8);
+  }
+  .mediaIcons a:hover .fa-facebook-f {
+    color: #5078cf;
+  }
+  .mediaIcons a:hover .fa-twitter {
+    color: #00acee;
+  }
+  .mediaIcons a:hover .fa-instagram {
+    color: #fd9217;
+  }
+  .mediaIcons a:hover .fa-youtube {
+    color: #ff0000;
+  }
